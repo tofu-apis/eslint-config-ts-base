@@ -1,0 +1,5 @@
+# Ignore built dependencies
+node_modules/
+
+# Yarn error logs
+yarn-error.log

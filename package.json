@@ -1,0 +1,32 @@
+{
+  "name": "@tofu-apis/ts-eslint-base",
+  "version": "1.0.4",
+  "main": "./eslint-config.js",
+  "files": [
+    "eslint-config.js"
+  ],
+  "scripts": {
+    "format": "prettier --write eslint-config.js",
+    "format:check": "prettier --check eslint-config.js",
+    "format:watch": "onchange \"eslint-config.js\" -- prettier --write {{changed}}"
+  },
+  "engines": {
+    "node": "16.19.1",
+    "yarn": "1.22.10"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.58.0",
+    "@typescript-eslint/parser": "5.58.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.3.2",
+    "prettier-plugin-organize-imports": "2.3.3"
+  },
+  "devDependencies": {
+    "onchange": "7.1.0",
+    "prettier": "2.3.2"
+  },
+  "repository": "git@github.com:tofu-apis/base_ts-eslint.git",
+  "license": "MIT"
+}

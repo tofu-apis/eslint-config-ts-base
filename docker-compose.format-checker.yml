@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  format-checker:
+    read_only: true
+    user: node
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: format-checker
+      args:
+        DOCKER_BUILDKIT: 1
