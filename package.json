@@ -1,6 +1,6 @@
 {
   "name": "@tofu-apis/eslint-config-ts-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./eslint-config.js",
   "files": [
     "eslint-config.js"
